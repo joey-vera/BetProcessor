@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetProcessorAPI", "src\BetProcessorAPI\BetProcessorAPI.csproj", "{DD696384-CDFF-7E11-FA4C-6648D84B355D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{E8000C6B-7F03-4C09-8DC9-7E77D046619D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{E2026F3F-5ECE-4444-A6B3-81ADC77D2279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{0B09178A-BDB0-42F0-B855-9056D4384A66}"
+	ProjectSection(SolutionItems) = preProject
+		docs\decisions.md = docs\decisions.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{70BB0916-D94F-4CBB-B964-065C88BF664C}"
+	ProjectSection(SolutionItems) = preProject
+		.runsettings = .runsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetProcessor.Tests", "tests\BetProcessor.Tests\BetProcessor.Tests.csproj", "{26420282-E850-47A4-8254-3F72DA109723}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD696384-CDFF-7E11-FA4C-6648D84B355D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD696384-CDFF-7E11-FA4C-6648D84B355D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD696384-CDFF-7E11-FA4C-6648D84B355D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD696384-CDFF-7E11-FA4C-6648D84B355D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8000C6B-7F03-4C09-8DC9-7E77D046619D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8000C6B-7F03-4C09-8DC9-7E77D046619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8000C6B-7F03-4C09-8DC9-7E77D046619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8000C6B-7F03-4C09-8DC9-7E77D046619D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2026F3F-5ECE-4444-A6B3-81ADC77D2279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2026F3F-5ECE-4444-A6B3-81ADC77D2279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2026F3F-5ECE-4444-A6B3-81ADC77D2279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2026F3F-5ECE-4444-A6B3-81ADC77D2279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26420282-E850-47A4-8254-3F72DA109723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26420282-E850-47A4-8254-3F72DA109723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26420282-E850-47A4-8254-3F72DA109723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26420282-E850-47A4-8254-3F72DA109723}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD696384-CDFF-7E11-FA4C-6648D84B355D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E8000C6B-7F03-4C09-8DC9-7E77D046619D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E2026F3F-5ECE-4444-A6B3-81ADC77D2279} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{26420282-E850-47A4-8254-3F72DA109723} = {70BB0916-D94F-4CBB-B964-065C88BF664C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2AE1680-FD85-4DBB-AC95-17280ECA6869}
+	EndGlobalSection
+EndGlobal

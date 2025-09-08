@@ -1,0 +1,39 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+GET https://localhost:7068/summary
+
+###
+
+POST https://localhost:7068/shutdown
+
+###
+
+POST https://localhost:7068/bet
+Content-Type: application/json
+
+{
+  "id": 101,
+  "amount": 10,
+  "odds": 25,
+  "client": "The Client",
+  "event": "The Event",
+  "market": "The Market",
+  "selection": "DRAW",
+  "status": 0
+}
+
+###
+
+POST https://localhost:7068/bet
+Content-Type: application/json
+
+{
+  "id": 101,
+  "amount": 10,
+  "odds": 25,
+  "client": "The Client",
+  "event": "The Event",
+  "market": "The Market",
+  "selection": "DRAW",
+  "status": 2
+}
